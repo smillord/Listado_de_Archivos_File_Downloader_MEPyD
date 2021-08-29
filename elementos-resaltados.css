@@ -1,0 +1,13 @@
+/* Resaltado de Ejemplo */
+
+[data-id=""] > .dd-content {
+  background-color: green; /* Listo */
+  background-color: yellow; /* En proceso */
+  background-color: red; /* Con incidencia */
+}
+
+/* -------------CSS--------------*/
+
+[data-id="5380"] > .dd-content {
+  background-color: green;
+}

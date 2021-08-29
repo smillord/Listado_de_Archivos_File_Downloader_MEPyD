@@ -1,0 +1,52 @@
+/* Ocultar los textos que dicen collapse y expand */
+button.dd-collapse {
+  display: none;
+}
+
+button.dd-expand {
+  display: none;
+}
+
+/* colocar imagen de google drive */
+i.google-drive-icon {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Google_Drive_icon_%282020%29.svg/2295px-Google_Drive_icon_%282020%29.svg.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+/* colocar imagen de Folder */
+i.material-icons.wpfd-folder {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  background-image: url("https://icons-for-free.com/iconfiles/png/512/folder-131964753094019398.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  font-size: 0px;
+}
+
+/* Hacer que todas las numeraciones iconos y textos esten en una sola linea en cada folder */
+.dd-content.dd3-content.not_disable.dd-handle.ui-droppable {
+  display: inline;
+  margin-left: 16px;
+}
+
+.not_disable.dd-handle.dd3-handle.ui-droppable {
+  display: inline;
+}
+
+/* CSS Para el modo oscuro */
+
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+a.t.not_disable {
+  color: #fff;
+}
+
+/* CSS Para el modo oscuro */
